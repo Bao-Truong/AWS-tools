@@ -14,3 +14,8 @@ Using Terraform v0.13.7
 ## Destroy
 - `terraform destroy` 
 
+## Notes:
+- `Security Group` must **allow Inbound HTTPS Port 443** from Source VPC_CIDR.
+
+## References
+- Links: https://aws.amazon.com/premiumsupport/knowledge-center/ec2-systems-manager-vpc-endpoints/
